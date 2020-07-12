@@ -1,14 +1,14 @@
+# © 2020 Caleb Capps. This Project is available for educational purposes under the MIT License
+
+
 from bs4 import BeautifulSoup
 import requests
 from PIL import Image
 from io import BytesIO
 import os
 
-search_query = input("Search for:\t")
-
-meijerParams = {"text": search_query}
-request_meijer = requests.get("https://www.meijer.com/shop/en/search/", params = meijerParams)
-
-# soup = BeautifulSoup(request_meijer.text, "html.parser")
-# print(soup.prettify()) # Print out the raw HTML code, formatted for easy reading
+# ADD: GUI for user input
+# ADD: Picture retrieval method, possibly in retrieval class
+# REF: Dealing with pages that require login credentials when web-scraping : http://kazuar.github.io/scraping-tutorial/
+# REF: Using User-Agent Headers to get around site that block web-scraping : ^^^^^
 
