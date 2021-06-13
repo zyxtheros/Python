@@ -51,5 +51,5 @@ def example3():
 
 	plt.show()
 
-# example3()	# Run example #3 by uncommenting
+example3()	# Run example #3 by uncommenting
 
