@@ -2,6 +2,7 @@ from pyfirmata import Arduino, util
 from time import sleep
 # import serial # used for serial monitor communication
 from PyQt5 import QtWidgets
+from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QSizePolicy
 import sys
@@ -35,9 +36,19 @@ class myWindow(QMainWindow):
         self.b1.clicked.connect(self.b1clicked)
 
         self.b2 = QtWidgets.QPushButton(self)  # set where the button goes
-        self.b2.setText("CLICK ME!")
+        self.b2.setText("LED on 8")
         self.b2.move(50, 100 )
         self.b2.clicked.connect(self.b2clicked)
+
+        self.slider = QtWidgets.QSlider(Qt.Horizontal, self)
+        # QtWidgets.QSlider(Qt.Vertical)
+        self.slider.setGeometry(50, 150, 100, 30)
+        self.slider.setMinimum(0)
+        self.slider.setMaximum(3)
+        self.slider.setValue(1)
+        self.slider.setTickPosition(QtWidgets.QSlider.TicksBothSides)
+        self.slider.setTickInterval(1)
+        self.slider.valueChanged.connect(self.value_changed)
 
     def b1clicked(self):
         print("a")
@@ -64,6 +75,26 @@ class myWindow(QMainWindow):
             self.b2.setText("2 OFF")
             self.board.digital[8].write(0) # sets pin 8 to low (0)
             self.update()
+
+    def value_changed(self, i):
+        print(i)
+        if i == 1:
+            self.board.digital[9].write(1)
+            self.board.digital[10].write(0)
+            self.board.digital[11].write(0)
+        elif i == 2:
+            self.board.digital[9].write(1)
+            self.board.digital[10].write(1)
+            self.board.digital[11].write(0)
+        elif i == 3:
+            self.board.digital[9].write(1)
+            self.board.digital[10].write(1)
+            self.board.digital[11].write(1)
+        else:
+            self.board.digital[9].write(0)
+            self.board.digital[10].write(0)
+            self.board.digital[11].write(0)
+
 
     def update(self):
         self.b1.adjustSize() # update the button width when the text changes
