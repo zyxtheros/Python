@@ -12,6 +12,8 @@ player = turtle.Turtle() # create a new entity
 player.shape("square") # set the entity shape
 player.color("green") # set the entity color
 
+
+
 # RUN CONDITIONS
 def player_animate():
     if player.shape() == "square":
