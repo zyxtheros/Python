@@ -32,8 +32,9 @@ class Player(turtle.Turtle):
 
 player = Player() # create a new entity instance
 player2 = Player()
+player3 = Player()
 player2.goto(-100, 0)
-
+player3.goto(100,0)
 # RUN CONDITIONS
 
 player2.animate()
