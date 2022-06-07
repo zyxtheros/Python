@@ -17,7 +17,7 @@ def addone():
     my_label2.config(text=tmp)
 
 root = Tk()
-root.geometry("500x400")
+root.geometry("1000x600")
 
 my_label = Label(root, text = "Hello there")
 my_label.pack(pady = 20)

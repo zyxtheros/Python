@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4fda9f38-3d5e-4198-9301-e19e99966276</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>userHMI.py</StartupFile>
+    <StartupFile>userHMI_V2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,20 +24,34 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="classes\gui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\__init.__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Helper Examples\GUI get serial.py" />
     <Compile Include="Helper Examples\GUI increment button.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper Examples\RoundedButton.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Helper Examples\threaded GUI.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="userHMI.py">
+    <Compile Include="userHMI_V2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PyArduino.py" />
+    <Compile Include="Version History\userHMI_V1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper Examples\PyArduino.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helper Examples\" />
+    <Folder Include="classes\" />
+    <Folder Include="Version History\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
