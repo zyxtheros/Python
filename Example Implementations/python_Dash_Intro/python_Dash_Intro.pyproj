@@ -2,18 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>4fda9f38-3d5e-4198-9301-e19e99966276</ProjectGuid>
+    <ProjectGuid>0f6cee4c-c1bc-4c5d-bdef-b33219dfdafe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Version History\userHMI_V1.py</StartupFile>
+    <StartupFile>python_Dash_Intro-V2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PyArduino</Name>
-    <RootNamespace>PyArduino</RootNamespace>
-    <TestFramework>pytest</TestFramework>
-    <UnitTestPattern>test*.py</UnitTestPattern>
-    <UnitTestRootDirectory>.</UnitTestRootDirectory>
+    <Name>python_Dash_Intro</Name>
+    <RootNamespace>python_Dash_Intro</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,34 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="classes\gui.py">
+    <Compile Include="pages.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="classes\__init.__.py">
+    <Compile Include="More Examples\UpdatingGraph.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Helper Examples\GUI get serial.py" />
-    <Compile Include="Helper Examples\GUI increment button.py">
+    <Compile Include="python_Dash_Intro-V2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Helper Examples\RoundedButton.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Helper Examples\threaded GUI.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="userHMI_V2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Version History\userHMI_V1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Helper Examples\PyArduino.py" />
+    <Compile Include="More Examples\DataMap.py" />
+    <Compile Include="More Examples\HelloWorld.py" />
+    <Compile Include="More Examples\InteractiveApp.py" />
+    <Compile Include="More Examples\SimpleButton.py" />
+    <Compile Include="More Examples\SimpleSidebar.py" />
+    <Compile Include="Stable Versions\python_Dash_Intro-V1.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Helper Examples\" />
-    <Folder Include="classes\" />
-    <Folder Include="Version History\" />
+    <Folder Include="More Examples\" />
+    <Folder Include="Stable Versions\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
