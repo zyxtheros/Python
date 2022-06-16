@@ -5,7 +5,7 @@
     <ProjectGuid>0f6cee4c-c1bc-4c5d-bdef-b33219dfdafe</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>PyArduino_2.2.py</StartupFile>
+    <StartupFile>Parse XML.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="More Examples\UpdatingGraph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Parse XML.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PyArduino_2.2.py">
@@ -51,6 +54,10 @@
     <Content Include="Arduino Code\Servo_Command_example\Servo_Command_example.vcxproj.filters" />
     <Content Include="Arduino Code\Servo_Command_example\Servo_Command_example.vcxproj.user" />
     <Content Include="Arduino Code\Servo_Command_example\__vm\.Servo_Command_example.vsarduino.h" />
+    <Content Include="config.xml">
+      <SubType>Code</SubType>
+      <Publish>True</Publish>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
