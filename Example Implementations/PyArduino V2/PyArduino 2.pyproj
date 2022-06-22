@@ -5,7 +5,7 @@
     <ProjectGuid>0f6cee4c-c1bc-4c5d-bdef-b33219dfdafe</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>PyArduino_2.2.py</StartupFile>
+    <StartupFile>More Examples\Interactive Graphs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="More Examples\Interactive Graphs.py" />
+    <Compile Include="More Examples\XML Parsing.py" />
     <Compile Include="pages.py">
       <SubType>Code</SubType>
     </Compile>
@@ -51,6 +53,9 @@
     <Content Include="Arduino Code\Servo_Command_example\Servo_Command_example.vcxproj.filters" />
     <Content Include="Arduino Code\Servo_Command_example\Servo_Command_example.vcxproj.user" />
     <Content Include="Arduino Code\Servo_Command_example\__vm\.Servo_Command_example.vsarduino.h" />
+    <Content Include="More Examples\config.xml">
+      <Publish>True</Publish>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
