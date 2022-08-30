@@ -5,7 +5,7 @@
     <ProjectGuid>0f6cee4c-c1bc-4c5d-bdef-b33219dfdafe</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>PyArduino_2.2.py</StartupFile>
+    <StartupFile>More Examples\Interactive Graphs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,16 +22,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="lib\pages.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="lib\xml_helper.py">
+    <Compile Include="More Examples\Interactive Graphs.py" />
+    <Compile Include="More Examples\XML Parsing.py" />
+    <Compile Include="pages.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="More Examples\UpdatingGraph.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="More Examples\Parse XML.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PyArduino_2.2.py">
@@ -43,16 +39,12 @@
     <Compile Include="More Examples\SimpleButton.py" />
     <Compile Include="More Examples\SimpleSidebar.py" />
     <Compile Include="Stable Versions\PyArduino_2.1.py" />
-    <Compile Include="lib\unitTest.py">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Arduino Code\" />
     <Folder Include="Arduino Code\Servo_Command_example\" />
     <Folder Include="Arduino Code\Servo_Command_example\__vm\" />
     <Folder Include="More Examples\" />
-    <Folder Include="lib\" />
     <Folder Include="Stable Versions\" />
   </ItemGroup>
   <ItemGroup>
@@ -61,8 +53,7 @@
     <Content Include="Arduino Code\Servo_Command_example\Servo_Command_example.vcxproj.filters" />
     <Content Include="Arduino Code\Servo_Command_example\Servo_Command_example.vcxproj.user" />
     <Content Include="Arduino Code\Servo_Command_example\__vm\.Servo_Command_example.vsarduino.h" />
-    <Content Include="config.xml">
-      <SubType>Code</SubType>
+    <Content Include="More Examples\config.xml">
       <Publish>True</Publish>
     </Content>
   </ItemGroup>
