@@ -5,8 +5,11 @@ from dash import dcc
 import plotly.express as px
 from dash.dependencies import Input, Output
 import pandas as pd
+from lib.xml_helper import * # include custom XML helper functions
 
-extensions = ["/", "/Plot", "/Configure"]
+extensions = ["/", "/Plot", "/Configure", "/XML_structure"] # list of page names used
+
+xmlconfinguration = xml('..config.xml')
 
 # data source: https://www.kaggle.com/chubak/iranian-students-from-1968-to-2017
 # data owner: Chubak Bidpaa
@@ -71,6 +74,13 @@ page_2 = html.Div( [
             )
         )
 ] )
+page_3 = html.Div( [
+        html.H1(
+            'XML Data Tree',
+            style={'textAlign':'center'}),
+        html.Label(
+            xmlconfinguration.prettyprint()) # TODO: create string output for the dashboard
+] )
 SIDEBAR_STYLE = { # styling the sidebar
     "position": "fixed",
     "top": 0,
@@ -91,6 +101,7 @@ sidebar = html.Div( [
                 dbc.NavLink("Not Home", href=extensions[0], active="exact"),
                 dbc.NavLink(extensions[1].lstrip("/"), href=extensions[1], active="exact"),
                 dbc.NavLink(extensions[2].lstrip("/"), href=extensions[2], active="exact"),
+                dbc.NavLink(extensions[3].lstrip("/"), href=extensions[3], active="exact")
             ],
             vertical=True,
             pills=True,

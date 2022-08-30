@@ -5,7 +5,7 @@
     <ProjectGuid>0f6cee4c-c1bc-4c5d-bdef-b33219dfdafe</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Parse XML.py</StartupFile>
+    <StartupFile>PyArduino_2.2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,13 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="pages.py">
+    <Compile Include="lib\pages.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lib\xml_helper.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="More Examples\UpdatingGraph.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Parse XML.py">
+    <Compile Include="More Examples\Parse XML.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PyArduino_2.2.py">
@@ -40,12 +43,16 @@
     <Compile Include="More Examples\SimpleButton.py" />
     <Compile Include="More Examples\SimpleSidebar.py" />
     <Compile Include="Stable Versions\PyArduino_2.1.py" />
+    <Compile Include="lib\unitTest.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Arduino Code\" />
     <Folder Include="Arduino Code\Servo_Command_example\" />
     <Folder Include="Arduino Code\Servo_Command_example\__vm\" />
     <Folder Include="More Examples\" />
+    <Folder Include="lib\" />
     <Folder Include="Stable Versions\" />
   </ItemGroup>
   <ItemGroup>

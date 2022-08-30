@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sensors>
-	<!--Elements within a child should be used for mutable data only-->
-	<servo id="S1" read="true" write="true">
+<!--
+	Author:			Caleb Capps
+	Date:			6/15/2022
+	Last Revised:	6/19/2022
+	Usage Notes:	Elements within a child are used for mutable data only
+-->
+<!--
+	Unit Convention: 
+		Length:		inches
+		Force:		pounds
+		Time:		milliseconds
+		Angles:		degrees (unless otherwise indicated)
+-->
+<metadata>
+	<sensors>
+		<servo id="S1" read="true" write="true">
+			<servoPosition>		0 </servoPosition>
+			<positionInit>		0 </positionInit>
+			<positionOffset>	0 </positionOffset> <!--Used for servo calibration-->
+		</servo>
+		<servo id="S2" read="true" write="true">
+			<servoPosition>		0 </servoPosition>
+			<positionInit>		0 </positionInit>
+			<positionOffset>	0 </positionOffset> <!--Used for servo calibration-->
+		</servo>
+	</sensors>
+	<pose>
 		<position>
-			90
+			<x_cord>	0 </x_cord>
+			<y_cord>	0 </y_cord>
 		</position>
-		<positionInit>
-			30
-		</positionInit>
-		<positionOffset>
-			1.5
-		</positionOffset>
-	</servo>
-	<servo id="S2" read="true" write="true">
-		<position>
-			45
-		</position>
-		<positionInit>
-			30
-		</positionInit>
-		<positionOffset>
-			2
-		</positionOffset>
-	</servo>
-</sensors>
+	</pose>
+</metadata>

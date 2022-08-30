@@ -7,7 +7,7 @@ from dash.dependencies import Input, Output
 import pandas as pd
 import os
 import webbrowser
-from pages import * # Include the custom pages file
+from lib.pages import * # Include the custom pages file
 
 
 
@@ -35,6 +35,8 @@ def render_page_content(pathname):
         return page_1
     elif pathname == extensions[2]:
         return page_2
+    elif pathname == extensions[3]:
+        return page_3
     # If the user tries to reach a different page, return a 404 message
     return dbc.Jumbotron(
         [
