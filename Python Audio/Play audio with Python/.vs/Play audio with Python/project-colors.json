@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "aa670a8e-6ef5-4b0c-b5aa-94cba979dfda": {
+      "ProjectGuid": "aa670a8e-6ef5-4b0c-b5aa-94cba979dfda",
+      "DisplayName": "Play audio with Python",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

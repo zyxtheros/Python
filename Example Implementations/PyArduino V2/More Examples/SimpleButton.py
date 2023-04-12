@@ -1,3 +1,5 @@
+import os
+import webbrowser
 from dash import Dash, html, Input, Output, callback_context
 
 app = Dash(__name__)
@@ -27,5 +29,16 @@ def displayClick(btn1, btn2, btn3):
         msg = 'None of the buttons have been clicked yet'
     return html.Div(msg)
 
-if __name__ == '__main__':
-    app.run_server(host="127.0.0.1", port=1100)
+# Run app
+PORT = 1100
+def main():
+    
+    # The reloader has not yet run - open the browser
+    if not os.environ.get("WERKZEUG_RUN_MAIN"):
+        webbrowser.open_new("http://localhost:{}".format(PORT))
+
+    # Otherwise, continue as normal
+    app.run(host="127.0.0.1", port=PORT)
+
+if __name__=='__main__':
+    main()

@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3D_Printing_Recipes
+{
+    //oledb csv parser
+    public DataTable ReadCsv(string fileName) {
+        DataTable dt = new DataTable("Data");
+        using (OleDbConnection cn = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\"" +
+            Path.GetDirectoryName(fileName) + "\";Extended Properties='text;HDR=yes;FMT=Delimited(,)';")) {
+            //Execute select query
+            using (OleDbCommand cmd = new OleDbCommand(string.Format("select *from [{0}]", new FileInfo(fileName).Name), cn)) {
+                cn.Open();
+                using (OleDbDataAdapter adapter = new OleDbDataAdapter(cmd)) {
+                    adapter.Fill(dt);
+                }
+            }
+        }
+        return dt;
+    }
+
+
+    class _3D_Printing_Recipes
+    {
+    }
+}

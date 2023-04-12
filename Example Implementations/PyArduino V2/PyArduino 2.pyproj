@@ -5,7 +5,7 @@
     <ProjectGuid>0f6cee4c-c1bc-4c5d-bdef-b33219dfdafe</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>More Examples\Interactive Graphs.py</StartupFile>
+    <StartupFile>More Examples\InteractiveApp.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
