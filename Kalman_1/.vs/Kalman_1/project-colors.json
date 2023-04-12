@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "abd7b573-1a0c-4097-9724-1fcec18721b8": {
+      "ProjectGuid": "abd7b573-1a0c-4097-9724-1fcec18721b8",
+      "DisplayName": "Kalman_1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
