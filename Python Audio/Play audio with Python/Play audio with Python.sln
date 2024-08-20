@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Play audio with Python", "Play audio with Python.pyproj", "{AA670A8E-6EF5-4B0C-B5AA-94CBA979DFDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA670A8E-6EF5-4B0C-B5AA-94CBA979DFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA670A8E-6EF5-4B0C-B5AA-94CBA979DFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAFF27E1-6008-44FE-B16D-E2094C4FF809}
+	EndGlobalSection
+EndGlobal

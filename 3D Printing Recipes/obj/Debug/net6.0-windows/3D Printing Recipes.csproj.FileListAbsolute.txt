@@ -1,0 +1,17 @@
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\bin\Debug\net6.0-windows\3D Printing Recipes.exe
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\bin\Debug\net6.0-windows\3D Printing Recipes.deps.json
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\bin\Debug\net6.0-windows\3D Printing Recipes.runtimeconfig.json
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\bin\Debug\net6.0-windows\3D Printing Recipes.dll
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\bin\Debug\net6.0-windows\3D Printing Recipes.pdb
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.csproj.AssemblyReference.cache
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\_3D_Printing_Recipes.Form1.resources
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.csproj.GenerateResource.cache
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.AssemblyInfoInputs.cache
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.AssemblyInfo.cs
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.csproj.CoreCompileInputs.cache
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.dll
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\refint\3D Printing Recipes.dll
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.pdb
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\3D Printing Recipes.genruntimeconfig.cache
+C:\Users\Caleb.Capps\source\repos\calebcapps\calebcapps\calebcapps\Python\3D Printing Recipes\obj\Debug\net6.0-windows\ref\3D Printing Recipes.dll

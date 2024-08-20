@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Intro to Pyfirmata", "Intro to Pyfirmata.pyproj", "{401F9EF7-6A84-4B98-9758-821F2A851588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B363EEA4-C095-4826-9E1F-19C4D44B35D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{401F9EF7-6A84-4B98-9758-821F2A851588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401F9EF7-6A84-4B98-9758-821F2A851588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9820B022-3964-4055-BF7B-90A3A7B377F6}
+	EndGlobalSection
+EndGlobal
